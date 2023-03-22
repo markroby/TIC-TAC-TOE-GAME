@@ -1,0 +1,763 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* display: grid;*/
+}
+
+.header {
+    background-color: #1a1a1a;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    margin: 0%;
+
+
+}
+
+
+
+.logo {
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+/*
+.logo span.id{
+    font-weight: 400;
+    font-size: 150%;
+    color: aqua;
+   color: red;
+}*/
+.logo span {
+    font-weight: 400;
+    font-size: 140%;
+    color: aqua;
+    /*color: red;*/
+
+}
+
+.navigation a {
+    text-decoration: none;
+    color: aliceblue;
+    /*   text-transform: uppercase;*/
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+    transition: 0.7s ease;
+
+}
+
+.navigation a:hover {
+
+    color: #a0a0a0;
+    /*  background-color: #0e0d0d ;
+    transform: scale(1.1)*/
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/b.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.main h2 {
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 20px;
+    /* color: #80c7d0;*/
+    color: rgb(112, 6, 6);
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.main h3 {
+    /*color: aliceblue;*/
+    color: #000000;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: aliceblue;
+    /* background-color:  #80c7d0;*/
+    background-color: rgba(211, 53, 53, 0.808);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    /* background-color: #3e9ba8 ;*/
+    background-color: rgb(155, 9, 9);
+    transform: scale(1.1);
+
+}
+
+/*
+.social-icons {
+    color: antiquewhite;
+    font-size: 0.2rem;
+    padding-right: 10px;
+}
+*/
+.social-icons a {
+    color: antiquewhite;
+    font-size: 0.2rem;
+    padding-right: 10px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #1a1a1a;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+header {
+    border: 0.5px;
+    border: #000000;
+    /* margin-top: auto;
+    margin-left: auto;
+    margin-left: 10px;*/
+    /*   margin: auto;*/
+    display: grid;
+    /*justify-content: center;*/
+    /* flex-direction: row;*/
+    /*flex-wrap: wrap; */
+    padding: 20px;
+    /* margin-top: 5px;
+  margin-left: 5px;*/
+    /*font-size: 10px;*/
+    margin: 0%;
+
+    color: #a0a0a0;
+}
+
+.D {
+    color: #000000;
+
+}
+
+.social-icons a {
+    color: antiquewhite;
+    font-size: 0.2rem;
+    padding-right: 10px;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #1a1a1a;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.card {
+    background-color: aliceblue;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+.icon {
+    color: #1a1a1a;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+
+.mar {
+    font-size: 30px;
+    text-decoration: none;
+    color: #a13838;
+}
+
+.mar:hover {
+    color: #130b0b;
+}
+
+
+.info h3 {
+    color: #1a1a1a;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    /* text-align: center;*/
+
+}
+
+
+.projects {
+    /* background-color:#1a1a1a;*/
+    background-color: rgb(9, 96, 136);
+
+}
+
+.projects-titles {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+.projects.content {
+    margin-top: 30px;
+
+
+}
+
+.projects-card {
+    background-color: aliceblue;
+    border-radius: 1px solid aliceblue;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.projects-card:hover {
+    transform: scale(1.1);
+}
+
+
+.projects-card:hover .projects-image {
+    opacity: 0.9;
+}
+
+.projects-image img {
+    width: 100%;
+}
+
+
+.projects-info {
+    padding: 1em;
+
+}
+
+.projects-category {
+    font-size: 0.8em;
+    color: #1a1a1a;
+}
+
+.projects-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+
+.more-details {
+    text-decoration: none;
+    color: #383838;
+}
+
+.more-details:hover {
+    color: #1a1a1a;
+}
+
+
+
+.contact .icon {
+    font-size: 4.5em;
+
+}
+
+.contact .info h3 {
+    color: #1a1a1a;
+}
+
+.contact .info a {
+    /*  text-decoration: none;
+    color: #1a1a1a;*/
+    /*
+    text-decoration: none;
+    color:black;*/
+    /*   text-transform: uppercase;*/
+    /*  font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+    transition: 0.7s ease*/
+    text-decoration: none;
+    color: #383838;
+
+}
+
+.contact .info a :hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+
+.contact.info p {
+    font-size: 1.5em;
+
+}
+
+
+.contact.info p :hover {
+    color: #000000
+}
+
+
+.footer {
+    background-color: #1a1a1a;
+    color: aliceblue;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+.footer-title span {
+    color: #636892;
+
+}
+
+
+@media(max-width :1023px) {
+    header {
+        padding: 12px 20px;
+
+    }
+
+    .navigation a {
+        padding-left: 10px;
+
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+
+    .section {
+        padding: 80px 20px;
+    }
+
+    .main-content h2 {
+        font-size: 1em;
+
+    }
+
+    .main-content h3 {
+        font-size: 1.6em;
+
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+}
+
+@media(max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-content h2 {
+        font-size: 1.4em;
+    }
+
+
+}
+
+
+@media(max-width:300px) {
+
+    body {
+        font-size: 10px;
+
+    }
+}
+
+
+/*
+/
+/
+/
+/
+//
+/
+/
+/
+/
+/
+//
+/
+*/
+input[type=text],
+input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
+
+
+
+
+/*================================================================================
+==============   Footer    =======================================================
+==================================================================================
+*/
+#footer {
+    color: #444444;
+    font-size: 14px;
+    background: #f1f7fd;
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #e3e3e3;
+    box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+}
+
+#footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+
+#footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #777777;
+}
+
+#footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #1c84e3;
+    font-size: 18px;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+    color: #777777;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: #1977cc;
+}
+
+#footer .footer-newsletter {
+    font-size: 15px;
+}
+
+#footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #bfdcf7;
+}
+
+#footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+}
+
+#footer .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #1977cc;
+    color: rgb(245, 13, 13);
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+#footer .footer-newsletter form input[type=submit]:hover {
+    background: #1c84e3;
+}
+
+#footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #444444;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #1977cc;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: #1c84e3;
+    color: #fff;
+    text-decoration: none;
+}

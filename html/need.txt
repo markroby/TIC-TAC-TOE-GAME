@@ -1,0 +1,13 @@
+1-  copy right                               ||      100%
+2-  cart link icon                           ||      100%
+3-  main change to  -->  home                ||      100%
+4-  icon insta change or remove              ||
+5-  whatsapp contact                         ||      100%
+6-  review form redigen                      ||
+7-  my sql                                   ||
+8-  php connection                           ||
+9-  payment mathod                           ||
+10- make to anther screen                    ||
+11- butten " ADD " new desgin                ||
+12- link to icon linked in                   ||
+13- change footer all to ( " new website " ) ||      100%
